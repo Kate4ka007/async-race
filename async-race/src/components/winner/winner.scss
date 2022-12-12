@@ -1,0 +1,81 @@
+.winners {
+
+  &__table-column {
+    text-align: center;
+    width: 180px;
+    height: 50px;
+
+    @media screen and (max-width) {
+      width: 140px;
+    }
+  }
+
+  &__table-number {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+  }
+
+  &__table-headers {
+    margin-bottom: 20px;
+  }
+
+  &__count-winners {
+    font-size: 30px;
+    color: #dadada;
+    margin: 20px 0 0 0;
+
+    @media screen and (max-width: 600px) {
+      font-size: 25px;
+    }
+  }
+
+  &__count-pages {
+    font-size: 30px;
+    color: #dadada;
+    margin-bottom: 30px;
+  }
+
+  &__pagination {
+    width: 150px;
+    display: flex;
+    gap: 1rem;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}
+
+#sort-id,
+#sort-time,
+#sort-number {
+  cursor: pointer;
+
+}
+
+.down {
+  border-bottom: green;
+}
+
+.th,
+.td {
+  color: #dadada;
+}
+
+.winner {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e62143;
+  font-size: 2rem;
+}
+
+.car-column {
+  display: flex;
+  justify-content: center;
+}

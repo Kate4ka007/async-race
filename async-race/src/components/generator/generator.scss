@@ -1,0 +1,59 @@
+.garage {
+  &__car-item {
+    border-bottom: 2px white dotted;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  &__create-car,
+  &__update-car,
+  &__race {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__title {
+    font-size: 30px;
+    color: #dadada;
+    margin: 60px 0;
+
+    @media screen and (max-width: 600px) {
+      margin: 30px 0;
+      font-size: 25px;
+    }
+  }
+
+  &__paginator {
+    margin: 0 auto;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.input-color {
+  width: 40px;
+  height: 20px;
+  border: none;
+  padding: 0 0 0 0;
+  border-radius: 5px;
+  margin: 0;
+  border-width: 1px;
+  background-color: #c2fbd7;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+
+.input-text {
+  border: none;
+  padding: 5px;
+  outline: none;
+  border-radius: 5px;
+
+}
